@@ -3,10 +3,6 @@
 Add and search for nodes in a binary tree with an easy-to-use, web-based
 visualization
 
-![Example of balanced tree](/photos/balanced.png)
-
-Inspired by Coding Train's [Binary Tree Visualization Challenge](https://thecodingtrain.com/CodingChallenges/065.2-binary-tree-viz.html)
-
 ## What is a Binary Tree
 
 A binary tree is a data type where every node in the graph can have at most two
@@ -76,14 +72,6 @@ position of the tree to allow for panning and zooming over the entire tree
 * **sketch.js** - Instantiates all the necessary objects to run the
 visualization
 
-**See each file for more detailed documentation, and in-depth explanations of
-how each class functions**
-
 ## Built with
  * [p5.js](https://p5js.org/) -
  A library for creating visualizations using the canvas
-
-## Future Ideas
-* Make the tree self-balancing using [AVL tree rotation](https://www.cise.ufl.edu/~nemo/cop3530/AVL-Tree-Rotations.pdf)
-* Add an animation for removing a node from the tree
-* Improve the performance of the Explorer class for larger trees with svg
